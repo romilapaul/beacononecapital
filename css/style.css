@@ -760,6 +760,7 @@ button {
     width: 310px;
     padding: 10px;
     min-height: 90px;
+    top: -50px;
   }
   .get-box > h2 {
     font-size: 20px;
@@ -776,6 +777,7 @@ button {
   .footer-section {
     background-color: #18212d;
     padding-top: 60px;
+     margin-top: 75px;
   }
   .footer-logo {
     max-width: 60px;
@@ -816,6 +818,11 @@ button {
 }
 
 @media screen and (max-width: 430px) {
+  /* header section */
+  .navbar-collapse {
+    top: 110px;
+  }
+
   h1 {
     font-size: 30px;
   }
