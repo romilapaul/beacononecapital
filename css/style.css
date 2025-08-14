@@ -716,6 +716,24 @@ hr {
     border-radius: 30px;
     padding: 17px 35px;
   }
+
+  /* footer section */
+  .footer-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-div > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-heading4{
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
