@@ -7,6 +7,10 @@ $(document).ready(function () {
     asNavFor: ".testimonial-cntn-slider",
     prevArrow: '<div class="swiper-button-prev custom-nav"></div>',
     nextArrow: '<div class="swiper-button-next custom-nav"></div>',
+    autoplay: true, 
+    autoplaySpeed: 1500, 
+    pauseOnHover: true,
+    pauseOnFocus: false,
     responsive: [
       {
         breakpoint: 768,
@@ -56,5 +60,3 @@ $(document).ready(function () {
     $(this).addClass("is-active");
   });
 });
-
-
