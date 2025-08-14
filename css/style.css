@@ -11,7 +11,7 @@ body {
 }
 
 @font-face {
-  font-family: SangBleu Sunrise;
+  font-family: "SangBleu Sunrise";
   src: url(../assets/text/SangBleu\ Sunrise.ttf);
 }
 
@@ -28,7 +28,7 @@ ul > li {
 
 a {
   text-decoration: none !important;
-  display: inline-blockx;
+  display: inline-block;
 }
 
 ul {
@@ -67,6 +67,10 @@ ul {
 .title3 {
   font-family: SangBleu Sunrise;
   color: var(--primary-heading-color);
+}
+
+figure {
+  margin: 0px;
 }
 
 /* Header Section */
@@ -198,9 +202,6 @@ ul {
 }
 .banner-btn > .btn {
   padding: 20px 24px;
-}
-.banner-btn1:hover {
-  background-color: #f1acf1;
 }
 
 /* potential of your property section */
@@ -559,7 +560,7 @@ ul {
   gap: 20px;
 }
 
-.footer-icons > a {
+.footer-icons > li > a {
   width: 40px;
   height: 40px;
   background-color: var(--primary-bg-color);
@@ -570,7 +571,7 @@ ul {
   align-items: center;
 }
 
-.footer-icons > a:hover {
+.footer-icons > li > a:hover {
   transform: scale(1.05);
 }
 
@@ -727,7 +728,11 @@ hr {
     flex-direction: column;
   }
 
-  .footer-heading4{
+  .footer-icons{
+    flex-direction: row !important;
+  }
+
+  .footer-heading4 {
     margin-top: 50px;
   }
 }
