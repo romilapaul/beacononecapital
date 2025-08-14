@@ -300,7 +300,7 @@ figure {
 
 .card > p {
   color: var(--primary-txt-color);
-  margin-block: 30px 70px;
+  margin-block: 30px 55px;
 }
 
 .card > a {
